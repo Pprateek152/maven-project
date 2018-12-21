@@ -10,10 +10,13 @@ public class Greeter {
    */
   public Greeter() {
 
-  }
+  }	
+/**
+* @param someone the name of somebody
+* @return greeting string
+*/
 
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
-    return String.format("Hellos, %s!", someone);
-  }
+public final String greet(final String someone) {
+	return String.format("Hellos, %s!", someone);
+}
 }
